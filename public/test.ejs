@@ -1,0 +1,40 @@
+<html>
+<head>
+<!-- <h1><%= test%></h1>
+<h1><%= t%></h1> -->
+<link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+<script src="/css/js/jquery.min.js"></script>
+<script src="/css/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <% include ./include/head%>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Reponce</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+                                  
+                              
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                      
+                                    <!-- <h4 class="modal-title"><%= test %></h4> -->
+                                   
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    
+                                  </div>
+                                  <div class="modal-body">
+                                    <p><%= test  %></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-info">Send</button>
+                                  </div>
+                                </div>
+
+
+         
+</body>                           
+
+        
+</html>                            
